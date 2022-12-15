@@ -1,16 +1,16 @@
-Algoritmo "TRIÂNGULOS"
-// Disciplina   : [Lógica de Programação com JavaScript]
+Algoritmo "TRIÃ‚NGULOS"
+// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : Mayara Prado GÃ³es
 // Data atual  : 16/09/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    a, b, c : real
    mens: caracter
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("Digite 3 valores")
    Escreva("A - ")
    Leia(a)
@@ -18,26 +18,19 @@ Inicio
    Leia(b)
    Escreva("C - ")
    Leia(c)
-   se (a < b+c) e (b <a+c) e (c <a+b) então
-      se (a=b) e (b=c) então
-         mens <- "Triângulo Equilátero"
-      senão
-         se (a=b) ou (b=c) ou (a=c) então
-            mens <- "Triângulo Isósceles"
-         senão
-            mens <- "Triângulo Escaleno"
+   se (a < b+c) e (b <a+c) e (c <a+b) entÃ£o
+      se (a=b) e (b=c) entÃ£o
+         mens <- "TriÃ¢ngulo EquilÃ¡tero"
+      senÃ£o
+         se (a=b) ou (b=c) ou (a=c) entÃ£o
+            mens <- "TriÃ¢ngulo IsÃ³sceles"
+         senÃ£o
+            mens <- "TriÃ¢ngulo Escaleno"
 
          fimse
       fimse
-   senão
-      mens <- "Não e possível formar um triângulo"
+   senÃ£o
+      mens <- "NÃ£o e possÃ­vel formar um triÃ¢ngulo"
    fimse
    escreval( mens)
 Fimalgoritmo
-
-//          a | b | C | Mens
-//          1 | 2 | 3 | Não e possível formar um triângulo
-//          3 | 4 | 5 | Triângulo Escaleno
-//          2 | 2 | 4 | Não e possível formar um triângulo
-//          4 | 4 | 4 | Triângulo Equilátero
-//          5 | 3 | 3 | Triângulo Isósceles
