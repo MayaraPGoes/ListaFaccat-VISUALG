@@ -1,34 +1,31 @@
-Algoritmo "Formar Tri‚ngulo"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaScript]
+Algoritmo "Formar Tri√¢ngulo"
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Jailson Costa
-// DescriÁ„o   : Ler 3 valores (A, B e C) representando as medidas dos lados
-//               de um tri‚ngulo e escrever se formam ou n„o um tri‚ngulo.
-// Autor(a)    : Gyovanna Lima
+// Descri√ß√£o   : Ler 3 valores (A, B e C) representando as medidas dos lados
+//               de um tri√¢ngulo e escrever se formam ou n√£o um tri√¢ngulo.
+// Autor(a)    : Mayara Prado G√≥es
 // Data atual  : 15/09/2022
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    valA,valB,valC,result,soma : real
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
-   Escreval("Vamos calcular 3 valores para ver se forma um tri‚ngulo?")
-   Escreval("Primeiro, digite o primeiro valor")
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
+   Escreval("Digite o primeiro valor")
    Leia(valA)
    Escreval("Agora, o segundo valor")
    Leia(valB)
-   Escreval("Por fim, o ˙ltimo valor")
+   Escreval("Por fim, o √∫ltimo valor")
    Leia(valC)
    
    result <- valA*valB/2
    soma <- valB+valC
    
    se result > soma entao
-      Escreval("N„o forma um tri‚ngulo essas medidas")
+      Escreval("N√£o forma um tri√¢ngulo essas medidas")
    senao
-      Escreval("Essas medidas formam um tri‚ngulo!")
+      Escreval("Essas medidas formam um tri√¢ngulo!")
    fimse
 
 
 Fimalgoritmo
-//OBS: para formar um tri‚ngulo, o valor de cada lado deve ser menor que
-//a soma dos outros 2 lados.
