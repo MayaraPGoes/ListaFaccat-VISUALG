@@ -1,31 +1,31 @@
 Algoritmo "Produto"
-// Disciplina   : [LÛgica de ProgramaÁ„o com JavaScript]
+// Disciplina   : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Jailson Costa
 
-// DescriÁ„o   : FaÁa um algoritmo para ler: a descriÁ„o do produto (nome), a quantidade
-// adquirida e o preÁo unit·rio. Calcular e escrever o total (total = quantidade
-// adquirida * preÁo unit·rio), o desconto e o total a pagar (total a pagar = total -
+// Descri√ß√£o   : Fa√ßa um algoritmo para ler: a descri√ß√£o do produto (nome), a quantidade
+// adquirida e o pre√ßo unit√°rio. Calcular e escrever o total (total = quantidade
+// adquirida * pre√ßo unit√°rio), o desconto e o total a pagar (total a pagar = total -
 // desconto), sabendo-se que:
-// Se quantidade <= 5 o desconto ser· de 2%
-// Se quantidade > 5 e quantidade <=10 o desconto ser· de 3%
-// Se quantidade > 10 o desconto ser· de 5%
+// Se quantidade <= 5 o desconto ser√° de 2%
+// Se quantidade > 5 e quantidade <=10 o desconto ser√° de 3%
+// Se quantidade > 10 o desconto ser√° de 5%
 
-// Autor(a)    : Gyovanna Lima
+// Autor(a)    : Mayara Prado G√≥es
 // Data atual  : 16/09/2022
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    nome_prod, desconto: caracter
    qtd_adq, preco_unit, total, total_pagar: real
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
-   Escreval("Ol·, para comeÁarmos, digite o nome do produto")
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
+   Escreval("Ol√°, para come√ßarmos, digite o nome do produto")
    Leia(nome_prod)
    
    Escreval("Agora, digite a quantidade adquirida")
    Leia(qtd_adq)
    
-   Escreval("Por fim, digite o preÁo unit·rio do produto")
+   Escreval("Por fim, digite o pre√ßo unit√°rio do produto")
    Leia(preco_unit)
    
    total <- qtd_adq * preco_unit
@@ -45,10 +45,10 @@ Inicio
    Escreval("------- TABELA -------")
    Escreval(" Nome:         ",nome_prod)
    Escreval(" Quantidade:  ",qtd_adq)
-   Escreval(" PreÁo Unit:  ",preco_unit)
-   Escreval(" PreÁo Total: ",total)
+   Escreval(" Pre√ßo Unit:  ",preco_unit)
+   Escreval(" Pre√ßo Total: ",total)
    Escreval(" Desconto:     ",desconto)
-   Escreval(" PreÁo Final: ",total_pagar)
+   Escreval(" Pre√ßo Final: ",total_pagar)
    Escreval("----------------------")
    
 
