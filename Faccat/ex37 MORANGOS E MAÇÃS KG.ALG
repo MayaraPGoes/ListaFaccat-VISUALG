@@ -1,21 +1,21 @@
-Algoritmo "Morangos e Ma«√sKg"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaScript]
+Algoritmo "Morangos e Ma√á√ÉsKg"
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Jailson Costa
-// DescriÁ„o   : Escreva um algoritmo para ler a quantidade (em Kg) de
-//               morangos e a quantidade (em Kg) de maÁas adquiridas e
+// Descri√ß√£o   : Escreva um algoritmo para ler a quantidade (em Kg) de
+//               morangos e a quantidade (em Kg) de ma√ßas adquiridas e
 //               escreva o valor a ser pago pelo cliente.
-// Autor(a)    : Gyovanna Lima
+// Autor(a)    : Mayara Prado G√≥es
 // Data atual  : 15/09/2022
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    MorKg,MacKg,Valor,TotalKg  : Real
    pMor,pMac                  : Real
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
    Escreval("Oi! Digite a quantidade(Kg) de Morangos")
    Leia(MorKg)
-   Escreval("Agora, digite a quantidade(Kg) de MaÁ„s")
+   Escreval("Agora, digite a quantidade(Kg) de Ma√ß√£s")
    Leia(MacKg)
    Escreval("--------------")
    
@@ -37,11 +37,8 @@ Inicio
       Valor <- Valor + (Valor*10/100)
    fimse
    
-   Escreval("O valor final a ser pago È ",Valor)
+   Escreval("O valor final a ser pago √© ",Valor)
 
 
 
 Fimalgoritmo
-
-//Se o cliente comprar mais de 8 Kg em frutas ou o valor total da compra
-//ultrapassar R$ 25,00, receber· ainda um desconto de 10% sobre este total.
