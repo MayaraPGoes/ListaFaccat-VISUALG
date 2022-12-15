@@ -1,25 +1,25 @@
 Algoritmo "Valor Maior"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa
-// Descrição   : Ler dois valores (considere que não serão lidos valores iguais) e
+// DescriÃ§Ã£o   : Ler dois valores (considere que nÃ£o serÃ£o lidos valores iguais) e
 //               escrever o maior deles.
-// Autor(a)    : Gyovanna Lima
+// Autor(a)    : Mayara Prado GÃ³es
 // Data atual  : 12/09/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    valor1, valor2 : real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("Olá, digite o primeiro valor")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreval("Digite o primeiro valor")
    Leia(valor1)
    Escreval("Agora, diferente do primeiro valor, digite o segundo")
    Leia(valor2)
    
    se valor1 > valor2 entao
-      Escreval("O maior valor é o primeiro",valor1)
+      Escreval("O maior valor Ã© o primeiro",valor1)
    senao se valor1 < valor2 entao
-      Escreval("O maior valor é o segundo",valor2)
+      Escreval("O maior valor Ã© o segundo",valor2)
    fimse
 
 Fimalgoritmo
