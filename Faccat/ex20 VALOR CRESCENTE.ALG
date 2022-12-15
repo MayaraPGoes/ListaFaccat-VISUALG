@@ -1,25 +1,25 @@
 Algoritmo "Valor Crescente"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa
-// Descrição   : Ler dois valores (considere que não serão lidos valores iguais) e
-//               escrevê-los em ordem crescente.
-// Autor(a)    : Gyovanna Lima
+// DescriÃ§Ã£o   : Ler dois valores (considere que nÃ£o serÃ£o lidos valores iguais) e
+//               escrevÃª-los em ordem crescente.
+// Autor(a)    : Mayara Prado GÃ³es
 // Data atual  : 12/09/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    valor1, valor2 : real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("Olá, digite o primeiro valor")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreval("Digite o primeiro valor")
    Leia(valor1)
    Escreval("Agora,digite o segundo diferente do primeiro valor")
    Leia(valor2)
 
    se valor1 > valor2 entao
-      Escreval("A ordem crescente é", valor2,valor1)
+      Escreval("A ordem crescente Ã©", valor2,valor1)
    senao se valor1 < valor2 entao
-      Escreval("A ordem crescente é", valor1,valor2)
+      Escreval("A ordem crescente Ã©", valor1,valor2)
    fimse
 
 Fimalgoritmo
