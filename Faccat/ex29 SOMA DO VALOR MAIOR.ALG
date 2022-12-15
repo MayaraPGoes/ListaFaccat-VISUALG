@@ -1,16 +1,16 @@
 Algoritmo "Soma do Valor Maior"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaScript]
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Jailson Costa
-// DescriÁ„o   : Ler 3 valores (considere que n„o ser„o informados valores
+// Descri√ß√£o   : Ler 3 valores (considere que n√£o ser√£o informados valores
 //               iguais) e escrever a soma dos 2 maiores.
-// Autor(a)    : Gyovanna Lima
+// Autor(a)    : Mayara Prado G√≥es
 // Data atual  : 15/09/2022
 Var
-    // SeÁ„o de DeclaraÁıes das vari·veis
+    // Se√ß√£o de Declara√ß√µes das vari√°veis
    val1,val2,val3,soma: real
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
    Escreval("Digite o primeiro valor para avaliarmos")
    Leia(val1)
    Escreval("Digite o segundo valor")
@@ -19,28 +19,28 @@ Inicio
    leia(val3)
    
    se (val1>val2) e (val1>val3) entao
-      se (val2>val3) ent„o
+      se (val2>val3) ent√£o
          soma <- val1 + val2
       senao
          soma <- val1 + val3
       fimse
    fimse
    se (val2>val1) e (val2>val3) entao
-      se (val1>val3) ent„o
+      se (val1>val3) ent√£o
          soma <- val1 + val2
       senao
          soma <- val2 + val3
       fimse
    fimse
    se (val3>val2) e (val3>val1) entao
-      se (val2>val1) ent„o
+      se (val2>val1) ent√£o
          soma <- val3 + val2
       senao
          soma <- val1 + val3
       fimse
    fimse
    
-   Escreval("A soma dos dois maiores valores È: ",soma)
+   Escreval("A soma dos dois maiores valores √©: ",soma)
    
 
 
