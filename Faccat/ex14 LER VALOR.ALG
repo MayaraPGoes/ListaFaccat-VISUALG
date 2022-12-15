@@ -1,24 +1,24 @@
 Algoritmo "Ler Valor"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa
-// Descrição   :  Ler  um  valor  e  escrever  a  mensagem  É  MAIOR  QUE  10!  se  o
-//                valor  lido  for  maior  que  10,  caso contrário escrever NÃO É MAIOR
+// DescriÃ§Ã£o   :  Ler  um  valor  e  escrever  a  mensagem  Ã‰  MAIOR  QUE  10!  se  o
+//                valor  lido  for  maior  que  10,  caso contrÃ¡rio escrever NÃƒO Ã‰ MAIOR
 //                QUE 10!
-// Autor(a)    : Gyovanna
+// Autor(a)    : Mayara Prado GÃ³es
 // Data atual  : 12/09/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    valor : real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("Olá, digite um valor:")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreval("Digite um valor:")
    Leia(valor)
 
    se valor > 10 entao
-      Escreval("É MAIOR QUE 10!")
+      Escreval("Ã‰ MAIOR QUE 10!")
    senao se valor < 10 entao
-           Escreval("NÃO É MAIOR QUE 10!")
+           Escreval("NÃƒO Ã‰ MAIOR QUE 10!")
    FIMSE
 
 Fimalgoritmo
