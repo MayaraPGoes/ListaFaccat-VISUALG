@@ -1,26 +1,26 @@
-Algoritmo "Média Notas Aluno"
-// Disciplina   : [Lógica de Programação com JavaScript]
+Algoritmo "MÃ©dia Notas Aluno"
+// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa
-// Descrição   : Faça  um  algoritmo  que  leia  três  notas  de  um  aluno,
-//               calcule  e  escreva  a  média  final  deste  aluno. Considerar que a
-//               média é ponderada e que o peso das notas é 2, 3 e 5.
-// Autor(a)    : Gyovanna Lima
+// DescriÃ§Ã£o   : FaÃ§a  um  algoritmo  que  leia  trÃªs  notas  de  um  aluno,
+//               calcule  e  escreva  a  mÃ©dia  final  deste  aluno. Considerar que a
+//               mÃ©dia Ã© ponderada e que o peso das notas Ã© 2, 3 e 5.
+// Autor(a)    : Mayara Prado GÃ³es
 // Data atual  : 12/09/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    nota1,nota2,nota3,media : real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("Bom dia! Digite sua primeira nota:")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreval("Digite sua primeira nota:")
    Leia(nota1)
    Escreval("Agora, digite sua segunda nota:")
    Leia(nota2)
-   Escreval("Por último, digite sua terceira nota:")
+   Escreval("Por Ãºltimo, digite sua terceira nota:")
    Leia(nota3)
    
    media <- ((nota1 * 2) + (nota2 * 3) + (nota3 * 5))/10
    
-   Escreval("Sua média final é de",media)
+   Escreval("Sua mÃ©dia final Ã© de",media)
 
 Fimalgoritmo
