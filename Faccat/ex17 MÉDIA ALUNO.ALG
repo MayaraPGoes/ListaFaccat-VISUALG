@@ -1,17 +1,17 @@
-Algoritmo "MÈdia Aluno"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaScript]
+Algoritmo "M√©dia Aluno"
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Jailson Costa
-// DescriÁ„o   : Calcular  a  mÈdia aritmÈtica  simples  e  escrever uma mensagem que
-//               diga se o aluno foi ou n„o aprovado, e mostrar a mÈdia calculada
-// Autor(a)    : Gyovanna Lima
+// Descri√ß√£o   : Calcular  a  m√©dia aritm√©tica  simples  e  escrever uma mensagem que
+//               diga se o aluno foi ou n√£o aprovado, e mostrar a m√©dia calculada
+// Autor(a)    : Mayara Prado G√≥es
 // Data atual  : 12/09/2022
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    ava1,ava2,media : real
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
-   Escreval("Primeiramente, digite a primeira nota do aluno")
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
+   Escreval("Digite a primeira nota do aluno")
    Leia(ava1)
    Escreval("Agora, digite a segunda nota")
    Leia(ava2)
@@ -19,9 +19,9 @@ Inicio
    media <- (ava1 + ava2) / 2
 
    se media >= 6 entao
-      Escreval("O aluno est· aprovado, fechando com nota de",media)
+      Escreval("O aluno est√° aprovado, nota de",media)
    senao se media < 6 entao
-      Escreval("O aluna est· reprovado, fechando com nota de",media)
+      Escreval("O aluna est√° reprovado, nota de",media)
    fimse
 
 Fimalgoritmo
