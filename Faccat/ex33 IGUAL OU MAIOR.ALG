@@ -1,28 +1,28 @@
 Algoritmo "Igual ou Maior"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa
-// Descrição   : Ler dois valores e imprimir uma das três mensagens a seguir:
-//               ‘Números iguais’, caso os números sejam iguais
-//               ‘Primeiro é maior’, caso o primeiro seja maior que o segundo;
-//               ‘Segundo maior’, caso o segundo seja maior que o primeiro.
-// Autor(a)    : Gyovanna Lima
+// DescriÃ§Ã£o   : Ler dois valores e imprimir uma das trÃªs mensagens a seguir:
+//               â€˜NÃºmeros iguaisâ€™, caso os nÃºmeros sejam iguais
+//               â€˜Primeiro Ã© maiorâ€™, caso o primeiro seja maior que o segundo;
+//               â€˜Segundo maiorâ€™, caso o segundo seja maior que o primeiro.
+// Autor(a)    : Mayara Prado GÃ³es
 // Data atual  : 15/09/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    valor1,valor2 : real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("Oi! Digite o primeiro valor")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreval("Digite o primeiro valor")
    Leia(valor1)
    Escreval("Digite o segundo valor agora")
    Leia(valor2)
    
    se valor1 > valor2 entao
-      Escreval("Primeiro valor é Maior")
+      Escreval("Primeiro valor Ã© Maior")
    fimse
    se valor1 < valor2 entao
-      Escreval("Segundo valor é Maior")
+      Escreval("Segundo valor Ã© Maior")
    fimse
    se (valor1 = valor2) entao
       Escreval("Valores iguais!")
