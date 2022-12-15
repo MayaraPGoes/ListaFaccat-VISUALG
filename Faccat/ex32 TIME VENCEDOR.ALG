@@ -1,25 +1,25 @@
 Algoritmo "Time Vencedor"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaScript]
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Jailson Costa
-// DescriÁ„o   : Ler o nome de 2 times e o n˙mero de gols marcados na partida
+// Descri√ß√£o   : Ler o nome de 2 times e o n√∫mero de gols marcados na partida
 //               (para cada time).
 //               Escrever o nome do vencedor.
-//               Caso n„o haja vencedor dever· ser impressa a palavra EMPATE.
-// Autor(a)    : Gyovanna Lima
+//               Caso n√£o haja vencedor dever√° ser impressa a palavra EMPATE.
+// Autor(a)    : Mayara Prado G√≥es
 // Data atual  : 15/09/2022
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    time1,time2 : caracter
    gols1,gols2 : inteiro
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
-   Escreval("Ol·, digite o nome do primeiro time")
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
+   Escreval("Digite o nome do primeiro time")
    Leia(time1)
    Escreval("Quantos gols esse mesmo time fez? (na partida)")
    Leia(gols1)
    
-   Escreval("Agora, digite o nome do time advers·rio")
+   Escreval("Agora, digite o nome do time advers√°rio")
    Leia(time2)
    Escreval("Quantos gols esse mesmo time fez? (na mesma partida)")
    Leia(gols2)
@@ -27,10 +27,10 @@ Inicio
    se gols1 > gols2 entao
       Escreval("O time vencedor foi ",time1, " com ",gols1," gol(s)")
    fimse
-   se gols2 > gols1 ent„o
+   se gols2 > gols1 ent√£o
       Escreval("O time vencedor foi ",time2, " com ",gols2," gol(s)")
    senao
-      Escreval("Houve um EMPATE!")
+      Escreval("EMPATE!")
    fimse
 
 
