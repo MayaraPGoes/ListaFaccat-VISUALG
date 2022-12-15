@@ -1,20 +1,20 @@
 Algoritmo "Horas Trabalhadas"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa
-// Descrição   : Escreva um algoritmo que leia o número de horas trabalhadas em um mês,
-//               o salário por hora e escreva o salário total do funcionário, que deverá
+// DescriÃ§Ã£o   : Escreva um algoritmo que leia o nÃºmero de horas trabalhadas em um mÃªs,
+//               o salÃ¡rio por hora e escreva o salÃ¡rio total do funcionÃ¡rio, que deverÃ¡
 //               ser acrescido das horas extras, caso tenham sido trabalhadas
-// Autor(a)    : Gyovanna Lima
+// Autor(a)    : Mayara Prado GÃ³es
 // Data atual  : 12/09/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    horasT, salarioH, salarioF, acres: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("Olá, digite as horas trabalhadas nesses mês")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreval("Digite as horas trabalhadas nesses mÃªs")
    Leia(horasT)
-   Escreval("Quanto você recebe por hora?")
+   Escreval("Quanto vocÃª recebe por hora?")
    Leia(salarioH)
 
    se horasT > 40 entao
@@ -27,11 +27,7 @@ Inicio
    
    salarioF <- salarioH + acres
    
-   Escreval("O seu salário final será R$",salarioF)
+   Escreval("O seu salÃ¡rio final serÃ¡ R$",salarioF)
    
 
 Fimalgoritmo
-
-//A jornada de trabalho semanal de um funcionário é de 40 horas.
-//O funcionário que trabalhar mais de  40  horas  receberá  hora  extra,  cujo  cálculo
-//é  o  valor  da  hora  regular  com  um  acréscimo  de  50%.
